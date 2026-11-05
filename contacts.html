@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Cornelius Onyango</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contacts-page">
+
+    <!-- TOP MENU -->
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Personal Experience</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <!-- NAME -->
+    <div class="name-banner">
+        <h1>CORNELIUS ONYANGO</h1>
+    </div>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> corneliusmakonyango@gmail.com</p>
+        <p><strong>Phone:</strong> +254 113 314 487</p>
+
+        <!-- Opens the visitor's mail application -->
+        <a href="mailto:corneliusmakonyango@gmail.com">Email me</a>
+
+        <hr>
+
+        <!-- Contact form -->
+        <form action="mailto:corneliusmakonyango@gmail.com" method="post" enctype="text/plain">
+
+            <label for="name">Enter your Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">E-mail address*:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Message Subject:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Enter your Message*:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label class="checkbox-label">
+                <input type="checkbox" name="copy">
+                E-mail a copy of this message to your own address.
+            </label>
+
+            <button type="submit">Send</button>
+        </form>
+    </main>
+
+    <!-- BOTTOM MENU -->
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Personal Experience</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="copyright">&copy; 2026 Cornelius Onyango. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
